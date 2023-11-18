@@ -5,7 +5,7 @@ from pathlib import Path
 # Project root, computing resources
 class ProjectConfig:
     project_root = Path(__file__).absolute().parent.parent
-    single_gpu = 1  # TODO: which gpu to run
+    single_gpu = 0  # TODO: which gpu to run
     device = torch.device(f"cuda:{single_gpu}")
     # device = torch.device(f"cpu")
     torch.cuda.set_device(device)
