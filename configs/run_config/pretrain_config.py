@@ -80,7 +80,7 @@ class PretrainConfig(PretrainLearningConfig):
     saving_message = f"{model_info}_seed{seed}"
     # print(saving_message)
 
-    saving_root = ProjectConfig.run_root / saving_message
+    # saving_root = ProjectConfig.run_root / saving_message
 
     saving_root = ProjectConfig.run_root / saving_message
 

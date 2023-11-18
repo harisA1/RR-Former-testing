@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 class DatasetConfig:
-    camels_root = Path("C:/Users/teo22/Documents/RR-Former-main/data/CAMELS/basin_dataset_public_v1p2")  # your CAMELS dataset root
+    camels_root = Path("/content/drive/MyDrive/CAMELS")  # your CAMELS dataset root
     forcing_type = "daymet"  # TODO: "daymet" or "maurer_extended" or "nldas_extended"
     basin_mark = "673"  # TODO: daymet in [673, 671], maurer_extended in [448]
     basins_file = f"data/{basin_mark}basins_list.txt"
