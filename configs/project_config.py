@@ -11,4 +11,4 @@ class ProjectConfig:
     # torch.cuda.set_device(device)
     num_workers = 0  # Number of threads for loading data
     run_root = Path("./runs")  # Save each run
-    final_data_root = Path("C:/Users/teo22/Documents/RR-Former-main/final_data")  # Cache preprocessed data
+    final_data_root = Path("RR-Former-main/final_data")  # Cache preprocessed data
