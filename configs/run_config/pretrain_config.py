@@ -14,7 +14,7 @@ class PretrainLearningConfig:
     loss_func = loss_functions[loss_type]
 
     scale_factor = 1  # TODO: usually, the bath_size bigger is, the learning_rate larger will have to be.
-    n_epochs = 200  # TODO
+    n_epochs = 10  # TODO
     batch_size = 512 // scale_factor  # TODO
     learning_rate = 0.001 / scale_factor  # TODO
     # "type" chose in [none, warm_up, cos_anneal, exp_decay]  # TODO
